@@ -1,0 +1,127 @@
+{
+  "login": {
+    "enter": "Enter",
+    "email": "Email",
+    "password": "Password",
+    "incorrectLoginOrPassword": "Email or password incorrect!",
+    "logout": "Logout"
+  },
+  "common": {
+    "userWithoutName": "User has no name",
+    "continue": "Continue",
+    "requireConfirmation": "Require confirmation",
+    "save": "Save",
+    "as": "as...",
+    "of": "of",
+    "required": "Required.",
+    "name": "Name",
+    "close": "Close",
+    "apply": "Apply",
+    "rename": "Rename",
+    "delete": "Delete",
+    "yes": "Yes",
+    "no": "No",
+    "forInfo": "For information",
+    "attention": "Attention!",
+    "columnMissing": "A number of columns are missing from the current view.",
+    "legalGroup": "Legal Group",
+    "expand": "Expand",
+    "upload": "Upload",
+    "toArbitre": "Go to arbitrator",
+    "incorrectData": "Incorrect data"
+  },
+  "menu": {
+    "case": "Case",
+    "cases": "Cases"
+  },
+  "smartTable": {
+    "aggregation": {
+      "show": "Show aggregation",
+      "avg": "Avarage",
+      "max": "Max",
+      "min": "Min",
+      "sum": "Sum"
+    },
+    "conf": {
+      "view": "View",
+      "customizeView": "Customize view",
+      "viewDefault": "View by default",
+      "saveView": "Save view",
+      "saveFilters": "Save filters",
+      "saveSorts": "Save sorts",
+      "autoColumnWidth": "Auto column width",
+      "viewName": "View name",
+      "deleteView": "Delete view",
+      "viewSetting": "View setting",
+      "renderedViewFields": "Rendered view fields",
+      "availableFields": "Available fields",
+      "sortFields": "Sort fields",
+      "showSource": "Show config source",
+      "applySource": "Apply config source",
+      "configSource": "Source"
+    },
+    "records": "Records",
+    "record": "Record",
+    "copyContent": "Copy table contents to clipboard",
+    "copyContentCopied": "The data has been successfully collected and is ready to be placed on the clipboard, but the operation took a long time. Please click \"Continue\" to comply with the security requirements of the browser that controls user activity when copied to the clipboard.",
+    "showFilter": "Show filter",
+    "clearFilter": "Clear filter",
+    "selectColumnFilter": "Select column to filter"
+  },
+  "models": {
+    "case": {
+      "brand": "Brand",
+      "violator": "Violator",
+      "status": "Status",
+      "DDUamountClaims": "Pre-trial settlement claim amount",
+      "DDUreceivedAmount": "Pre-trial settlement collected amount",
+      "DDUpaymentBalance": "Pre-trial settlement payment balance",
+      "violatorINN": "Violator taxpayer identification number",
+      "rightholder": "Rightholder",
+      "tradeCategoryFlow": "Product category",
+      "decisionNumber": "Executive list number",
+      "enforcementNumber": "Enforcement procedure number",
+      "region": "Region",
+      "lawsuit": "Lawsuit",
+      "arbitrationCaseId": "Arbitration case id",
+      "stoppingStage": "Case stopping stage",
+      "lawsuitNotFound": "Lawsuit not found",
+      "country": "Country",
+      "cessionary": "Cessionary",
+      "agreementDate": "Appendix signing date"
+    },
+    "purchase": {
+      "flowCaseId": "Flow case id"
+    },
+    "lawsuit": {
+      "calculated": "Calculated"
+    }
+  },
+  "editCards": {
+    "techInformation": "Technical information",
+    "caseEditCard": {
+      "rightholderNotExists": "The case has no rightholder",
+      "purchaseRightholderNotExists": "The purchase does not have a rightholder",
+      "storeNotExists": "Purchasing does not have a store",
+      "violatorNotExists": "The purchase has no violator",
+      "name": "Case",
+      "purchaseOrWebpageNotExists": "The case has no purchase or webpage"
+    },
+    "photoGallery": {
+      "noPhotos": "No photos",
+      "choosePhoto": "Choose photo",
+      "releasePhoto": "Release the image."
+    },
+    "purchaseEditCard": {
+      "products": "Products",
+      "productPhotos": "Product photos"
+    },
+    "lawsuitEditCard": {
+      "judgements": "Judgements",
+      "operativeDecisionScan": "Operative decisio scan",
+      "operativeDecisionUrl": "Operative decision url",
+      "motivatedDecisionScan": "Motivated decision scan",
+      "motivatedDecisionUrl": "Motivated decision url"
+    }
+  }
+}

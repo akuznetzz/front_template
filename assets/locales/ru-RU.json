@@ -1,0 +1,127 @@
+{
+  "login": {
+    "enter": "Войти",
+    "email": "Электронная почта",
+    "password": "Пароль",
+    "incorrectLoginOrPassword": "Электронная почта или пароль указаны неверно!",
+    "logout": "Выйти"
+  },
+  "common": {
+    "userWithoutName": "У пользователя нет имени",
+    "continue": "Продолжить",
+    "requireConfirmation": "Требуется подтверждение",
+    "save": "Сохранить",
+    "as": "как...",
+    "of": "из",
+    "required": "Обязательно.",
+    "name": "Имя",
+    "close": "Закрыть",
+    "apply": "Применить",
+    "rename": "Переименовать",
+    "delete": "Удалить",
+    "yes": "Да",
+    "no": "Нет",
+    "forInfo": "Для сведения",
+    "attention": "Внимание!",
+    "columnMissing": "Ряд колонок отсутствует в текущем представлении.",
+    "legalGroup": "Правовая Группа",
+    "expand": "Развернуть",
+    "upload": "Загрузить",
+    "toArbitre": "В арбитр",
+    "incorrectData": "Некоректные данные"
+  },
+  "menu": {
+    "case": "Дело",
+    "cases": "Дела"
+  },
+  "smartTable": {
+    "aggregation": {
+      "show": "Показать агрегации",
+      "avg": "Среднее",
+      "max": "Макс",
+      "min": "Мин",
+      "sum": "Сумма"
+    },
+    "conf": {
+      "view": "Представления",
+      "customizeView": "Настройка представления",
+      "viewDefault": "Представление по умолчанию",
+      "saveView": "Сохранить представление",
+      "saveFilters": "Сохранять фильтры",
+      "saveSorts": "Сохранять сортировки",
+      "autoColumnWidth": "Автоширина колонок",
+      "viewName": "Имя представления",
+      "deleteView": "Удалить представление",
+      "viewSetting": "View setting",
+      "renderedViewFields": "Визуализируемые поля представления",
+      "availableFields": "Доступные поля",
+      "sortFields": "Поля сортировки",
+      "showSource": "Показать исходный код конфигурации",
+      "applySource": "Применить исходный код конфигурации",
+      "configSource": "Исходный код"
+    },
+    "records": "Записей",
+    "record": "Запись",
+    "copyContent": "Копировать содержимое таблицы в буфер обмена",
+    "copyContentCopied": "Данные успешно собраны, и готовы к помещению в буфер обмена, но операция заняла продолжительное время. Пожалуйста, нажмите 'Продолжить', чтобы обеспечить соответствие требованиям безопасности браузера, контролирующего активность пользователя при копировании в буфер обмена.",
+    "showFilter": "Показать фильтр",
+    "clearFilter": "Очистить фильтр",
+    "selectColumnFilter": "Выберите столбец для фильтрации"
+  },
+  "models": {
+    "case": {
+      "brand": "Бренд",
+      "violator": "Нарушитель",
+      "status": "Статус",
+      "DDUamountClaims": "ДДУ сумма требований",
+      "DDUreceivedAmount": "ДДУ полученная сумма",
+      "DDUpaymentBalance": "ДДУ остаток выплат",
+      "violatorINN": "ИНН нарушителя",
+      "rightholder": "Правообладатель",
+      "tradeCategoryFlow": "Торговая категория по флоу",
+      "decisionNumber": "Номер исполнительного листа",
+      "enforcementNumber": "Номер исполнительного производства",
+      "region": "Регион",
+      "lawsuit": "Судебное дело",
+      "arbitrationCaseId": "Арбитражное дело",
+      "stoppingStage": "Стадия остановки дела",
+      "lawsuitNotFound": "Судебное дело не обнаружено",
+      "country": "Страна",
+      "cessionary": "Цессионарий",
+      "agreementDate": "Дата подписания приложения"
+    },
+    "purchase": {
+      "flowCaseId": "Id дела из flow"
+    },
+    "lawsuit": {
+      "calculated": "Рассчитываемые"
+    }
+  },
+  "editCards": {
+    "techInformation": "Техническая информация",
+    "caseEditCard": {
+      "rightholderNotExists": "Дело не имеет правообладателя",
+      "purchaseRightholderNotExists": "Закупка не имеет правообладателя",
+      "storeNotExists": "Закупка не имеет магазина",
+      "violatorNotExists": "Закупка не имеет нарушителя",
+      "name": "Дело",
+      "purchaseOrWebpageNotExists": "Дело не имеет закупку или вебстраницу"
+    },
+    "photoGallery": {
+      "releasePhoto": "Отпустите изображение.",
+      "noPhotos": "Нет фотографий",
+      "choosePhoto": "Выберите фото"
+    },
+    "purchaseEditCard": {
+      "products": "Товары",
+      "productPhotos": "Фото товаров"
+    },
+    "lawsuitEditCard": {
+      "judgements": "Судебные решения",
+      "operativeDecisionScan": "Скан резолютивного решения",
+      "operativeDecisionUrl": "Url резолютивного решения",
+      "motivatedDecisionScan": "Скан мотивированного решения",
+      "motivatedDecisionUrl": "Url мотивированного решения"
+    }
+  }
+}

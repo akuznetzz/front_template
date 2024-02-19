@@ -1,0 +1,105 @@
+{
+  "name": "vue-cheetah-grid",
+  "version": "0.19.2",
+  "description": "Cheetah Grid for Vue.js",
+  "main": "dist/vueCheetahGrid.js",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "scripts": {
+    "test": "cross-env BABEL_ENV=test karma start --single-run --browsers Chrome_travis_ci",
+    "test:once": "cross-env BABEL_ENV=test karma start --no-auto-watch --single-run",
+    "test:watch": "cross-env BABEL_ENV=test karma start",
+    "test:ie": "cross-env BABEL_ENV=test karma start --browsers IE_no_addons",
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "watch": "webpack --watch --mode development",
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "eslint . --ext .js,.vue",
+    "eslint:fix": "eslint . --fix  --ext .js,.vue",
+    "stylelint": "stylelint \"**/*.css\" \"**/*.vue\"",
+    "stylelint:fix": "stylelint \"**/*.css\" \"**/*.vue\" --fix",
+    "build:ci": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/future-architect/cheetah-grid.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "grid",
+    "data-table",
+    "cheetah-grid"
+  ],
+  "author": {
+    "name": "yosuke ota",
+    "email": "otameshiyo23@gmail.com",
+    "url": "https://www.npmjs.com/~ota-meshi"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/future-architect/cheetah-grid/issues"
+  },
+  "homepage": "https://github.com/future-architect/cheetah-grid/tree/master/packages/vue-cheetah-grid",
+  "dependencies": {
+    "cheetah-grid": "^0.19.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.1.0",
+    "@babel/plugin-proposal-json-strings": "7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/plugin-transform-object-assign": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/runtime": "^7.1.5",
+    "@vue/test-utils": "^1.0.0-beta.25",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-istanbul": "^5.1.0",
+    "chai": "^4.2.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.1",
+    "delay-cli": "^1.1.0",
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-vue-preset": "^0.2.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.0.1",
+    "karma": "^4.4.1",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.2",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-mocha": "^1.3.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "^0.0.32",
+    "karma-webpack": "^4.0.0-rc.6",
+    "mocha": "^5.2.0",
+    "promise-polyfills": "^7.0.4",
+    "sinon": "^6.3.5",
+    "sinon-chai": "^3.2.0",
+    "stylelint": "^13.2.0",
+    "stylelint-config-standard": "^20.0.0",
+    "vue": "^2.5.17",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "peerDependencies": {
+    "vue": "^2.5.16"
+  }
+}

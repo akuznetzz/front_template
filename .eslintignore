@@ -1,0 +1,38 @@
+#файлы ts которые нужно привести в порядок
+common/httpRequest.ts
+common/messages.ts
+common/validateUrl.ts
+common/domain-model.ts
+common/constants.js
+components/SmartTable/store.ts
+
+#Пути созданные ранее содержащие ошибки eslint не содержащие скриптов ts
+#components/SmartTable
+components/ComboBox
+components/AutoComplete
+components/InputImage
+components/PrimaryDetection
+components/PurchasedProcessing
+components/Photos.vue
+
+pages/login.vue
+pages/pri-detect
+
+store/index.js
+
+vendor
+
+
+#from gitignore
+# dependencies
+node_modules
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+# IDE folder
+.idea
+.vscode

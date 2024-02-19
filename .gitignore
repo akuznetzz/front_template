@@ -1,0 +1,28 @@
+# Service directories of the known IDEs
+.idea/
+.vscode/
+
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+# IDE folder
+.idea
+.vscode
+
+# environment
+.env
+
+# custom configuration
+/customConfig.js
+
+# nitro
+.output

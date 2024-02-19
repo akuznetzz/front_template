@@ -1,0 +1,25 @@
+.v-text-field__slot input {
+  font-weight: 400 !important;
+}
+
+.v-select__slot input {
+  font-weight: 400 !important;
+}
+
+.v-label--is-disabled {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.v-label--active.v-label--is-disabled {
+  font-weight: 400 !important;
+}
+
+.v-text-field__slot > [disabled] {
+  color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.cheetah-grid__tooltip-element {
+  z-index: 9999999;
+  min-width: 100px;
+  max-width: 300px;
+}
