@@ -1,11 +1,6 @@
 import colors from 'vuetify/es5/util/colors';
 import {defineNuxtConfig} from '@nuxt/bridge';
 
-// const execSync = require('child_process').execSync;
-// const releaseHash = execSync('git rev-list --tags --max-count=1').toString().trim();
-// const releaseVersion = execSync(`git describe --tags ${releaseHash}`).toString().trim();
-// console.info(`release version is: ${releaseVersion}`);
-
 const LOCALES = [
   {
     code: 'en',
@@ -30,13 +25,6 @@ let config = {
 
   vite: true,
 
-  // publicRuntimeConfig: {
-  //   companyName: process.env.COMPANY_NAME,
-  //   aggregatorId: process.env.AGGREGATOR_ID,
-  //   loginCompanyLogo: process.env.AGGREGATOR_ID === '22', // 22 - идентификатор "Правовой Группы"
-  //   releaseVersion,
-  // },
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: `%s${process.env.API_URL ? '' : ' - test'}`,
@@ -57,9 +45,7 @@ let config = {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    {src: '~/plugins/google-maps', ssr: false},
     {src: '~/plugins/awesome-notifications', ssr: false},
-    {src: '~/plugins/vuedraggable', ssr: false},
     {src: '~/plugins/domain-model', ssr: false},
     {src: '~/plugins/workspace-manager', ssr: false},
     {src: '~/plugins/vue-clipboard2', ssr: false},
